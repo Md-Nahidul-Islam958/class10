@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500&display=swap');
+body{
+	font-family: 'Saira', sans-serif;
+}
+.announcement{
+    background: #333;
+}
+.announcement p{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.announcement p a{
+    color: #d4be84;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+header{
+	background-image: url('../images/e-commerce.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #333;
+	background-blend-mode: multiply;
+}
+.top-header{
+	padding: 10px 0;
+    border-bottom: 1px solid #fffefe7a
+}
+
+.top-left{}
+.top-left p{
+}
+.top-left p a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.top-right{}
+.top-right ul.nav{}
+.top-right ul.nav li{}
+.top-right ul.nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.top-right ul.nav li a:hover{}
+.top-right ul.nav li select{
+    background: transparent;
+    color: #fff;
+}
+.top-right ul.nav li select option{
+	background: #333333 !important;
+	color: #fff;
+}
+.navbar-collapse{
+	width: 30% !important
+}
+
+.navbar{
+	padding: 30px 0;
+}
+
+.navbar-brand {
+  margin-right: auto;
+}
+.cart-menu{}
+ul.cart-menu{
+	width: 30% !important;
+	justify-content: flex-end;
+}
+
+ul.cart-menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.banner{
+    padding: 100px 0;
+    text-align: center;
+}
+.banner h1{
+    color: #fff;
+}
+.banner h3{
+    color: #fff;
+    font-weight: 500;
+}
+.banner a{
+  }
+
+.kickstarter{  
+    background: #d4be84;
+    padding: 10px 0;
+}
+.kickstarter img{
+	width: 30%
+}
+.kickstarter p{}
+.kickstarter a{}
+.text-center {
+	padding-right: 140px;
+}
+
+.bg1{
+	background-image: url(../images/adventure.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #333;
+	background-blend-mode: multiply;
+}
+.bg2{
+	background-image: url(../images/adventure.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #333;
+	background-blend-mode: multiply;
+}
+.feature{
+    padding: 150px 140px;
+}
+.feature h3{
+	/* color: #fff; */
+	padding-bottom: 10px;
+	color: #d4be84;
+}
+.feature h6{
+	color: #fff;
+	font-size: 18px;
+	max-width: 400px;
+	line-height: 0.7;
+	padding-top: 20p;
+}
+.feature p{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	padding-top: 20px;
+}
+.feature a{}
